@@ -1,0 +1,149 @@
+*,body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4{
+  font-family: IRANSans;
+}
+body{
+  direction: rtl;
+}
+.navbar.navbar-transparent{
+  left:0;
+}
+.nav{
+  padding-right: 0;
+  padding-left: auto;
+}
+.navbar-toggle {
+  float: left;
+  padding: 9px 10px;
+  margin-left: 15px;
+}
+
+.tim-typo {
+  padding-right: 25%;
+  margin-bottom: 40px;
+  position: relative;
+}
+.tim-typo .tim-note {
+  bottom: 10px;
+  color: #c0c1c2;
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  right: 0;
+  margin-right: 20px;
+  position: absolute;
+  width: 260px;
+}
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-right: 5px solid #eee;
+}
+
+
+.navbar-brand {
+  float: right;
+
+}
+.navbar .btn,.btn{
+  will-change:unset;
+}
+.card .card-header.card-chart{
+  direction: ltr;
+}
+th{
+  text-align: right;
+}
+.nav-tabs>li{
+  float: right;
+}
+footer .copyright {
+  padding: 15px 0;
+  margin: 0;
+}
+
+.checkbox .checkbox-material .check:before{
+  margin-right: 11px;
+}
+.table .radio, .table .checkbox{
+  margin-right: 20px;
+}
+
+
+@media (max-width: 991px) {
+  .navbar-header {
+    float: none !important;
+  }
+  .navbar-header .navbar-toggle{
+    margin:10px 0 10px 15px;
+  }
+}
+@media (min-width: 992px){
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+  float: right;
+}
+  .col-md-offset-3 {
+    margin-right: 25%;
+  }
+  .col-md-offset-2 {
+    margin-right: 16.66666667%;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-header {
+    float: right;
+  }
+  .navbar-left{
+    margin-left: -15px;
+  }
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+    margin-right:0 !important;
+    margin-left:0 !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-right: 15px;
+  }
+}
+
+
+
+.dropdown-menu{
+  min-width: 120px;
+  text-align: right;
+}
+.sidebar .nav-mobile-menu .notification{
+  position: absolute;
+  top: 15px;
+  border: 1px solid #FFF;
+  left: 10px;
+  font-size: 9px;
+  background: #f44336;
+  color: #FFFFFF;
+  min-width: 20px;
+  padding: 0px 5px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 19px;
+  vertical-align: middle;
+  display: block;
+}
+
+#loginForm{
+  overflow: hidden;
+  background: #fff;
+  width: 50%;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+.main-panel.fix-panel .main-content{
+  min-height: calc(100% - 51.8px) !important;
+  margin-top:0 !important;
+}
