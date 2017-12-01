@@ -13,6 +13,7 @@ import {NotificationsComponent} from './notifications/notifications.component';
 import {FinancialComponent} from './financial/financial.component';
 import {LoginComponent} from './authenticatioan/login/login.component';
 import {PaymentsComponent} from './payments/payments.component';
+import {ContactWithOwnersComponent} from "./contact-with-owners/contact-with-owners.component";
 
 const routes: Routes = [
     {path: 'login', component: LoginComponent},
@@ -20,6 +21,7 @@ const routes: Routes = [
     {path: 'user-profile', component: UserProfileComponent},
     {path: 'table-list', component: TableListComponent},
     {path: 'typography', component: TypographyComponent},
+    {path: 'contact', component: ContactWithOwnersComponent},
     {path: 'icons', component: IconsComponent},
     {path: 'maps', component: MapsComponent},
     {path: 'notifications', component: NotificationsComponent},

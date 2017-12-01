@@ -21,6 +21,7 @@ import { AuthenticatioanComponent } from './authenticatioan/authenticatioan.comp
 import { LoginComponent } from './authenticatioan/login/login.component';
 import { LogoutComponent } from './authenticatioan/logout/logout.component';
 import { PaymentsComponent } from './payments/payments.component';
+import { ContactWithOwnersComponent } from './contact-with-owners/contact-with-owners.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { PaymentsComponent } from './payments/payments.component';
     AuthenticatioanComponent,
     LoginComponent,
     LogoutComponent,
-    PaymentsComponent
+    PaymentsComponent,
+    ContactWithOwnersComponent
   ],
   imports: [
     BrowserModule,

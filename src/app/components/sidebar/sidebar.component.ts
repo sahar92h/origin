@@ -16,7 +16,7 @@ export const ROUTES: RouteInfo[] = [
     {path: 'dashboard', title: 'داشبورد', icon: 'dashboard', class: '', showChildrens: false},
     {path: 'table-list', title: 'مشخصات ساختمان', icon: 'location_city', class: '', showChildrens: false},
     {path: 'user-profile', title: 'ثبت و مشخصات واحدها', icon: 'person_add', class: '', showChildrens: false},
-    {path: 'typography', title: 'ارتباط با مالکین', icon: 'chat', class: '', showChildrens: false},
+    {path: 'contact', title: 'ارتباط با مالکین', icon: 'chat', class: '', showChildrens: false},
     {path: 'financial', title: 'مالی', icon: 'monetization_on', class: '', showChildrens: false,
         childrens: [
             {title: 'مدیریت هزینه ها', icon: '', class: ''},
