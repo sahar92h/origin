@@ -22,6 +22,7 @@ import { LoginComponent } from './authenticatioan/login/login.component';
 import { LogoutComponent } from './authenticatioan/logout/logout.component';
 import { PaymentsComponent } from './payments/payments.component';
 import { ContactWithOwnersComponent } from './contact-with-owners/contact-with-owners.component';
+import {ContactService} from "./contact-with-owners/contact.service";
 
 @NgModule({
   declarations: [
@@ -48,7 +49,7 @@ import { ContactWithOwnersComponent } from './contact-with-owners/contact-with-o
     RouterModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ContactService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
