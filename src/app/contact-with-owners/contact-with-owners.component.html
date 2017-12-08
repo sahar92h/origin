@@ -1,0 +1,25 @@
+<div class="container contact-page">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="chat-box" *ngFor="let message of messageList" [ngClass]="{'darker' : message.senderId==4}">
+
+            <img [src]="message.imageUrl" alt="Avatar" style="width:100%;">
+            <span class="owner-name ">{{message.owner}}</span>
+            <p>{{message.message}}</p>
+            <span class="time-right">{{message.date}}</span>
+        </div>
+        <div class="chat-box" >
+            <div class="input-group">
+
+                <input type="text" name="userMessage" class="form-control" (keydown)="sendByEnter($event)"
+                       [(ngModel)]="userMessage">
+                <label class="input-group-btn">
+                    <span class="btn btn-primary">
+                        ارسال <input (click)="sendMessage()" type="button" style="display: none;">
+                    </span>
+                </label>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div></div>
